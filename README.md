@@ -5,5 +5,3 @@ develop
 epazote
 
 perejil
-
-na
