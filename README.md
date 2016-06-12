@@ -15,3 +15,8 @@ Add second repo to push (multiple pushurl):
 # commit using GPG
 
     git commit -S -m your commit message
+
+or add on .gitconfig
+
+    [commit]
+        gpgsign = true
