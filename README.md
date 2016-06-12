@@ -11,3 +11,7 @@ Add second repo to push (multiple pushurl):
     <do work>
     git add your files
     git commit -m 'Initial commit'
+
+# commit using GPG
+
+    git commit -S
