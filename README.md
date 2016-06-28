@@ -20,3 +20,11 @@ or add on .gitconfig
 
     [commit]
         gpgsign = true
+
+Squash via rebase:
+
+    git rebase -i origin/master
+
+Then pick/forward
+
+    git push -u origin -f my_branch
