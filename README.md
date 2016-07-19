@@ -25,6 +25,6 @@ Squash via rebase:
 
     git rebase -i origin/master
 
-Then pick/forward
+Then pick/forward and push **force** your branch:
 
     git push -u origin -f my_branch
