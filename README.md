@@ -1,20 +1,30 @@
-# git Praxis
+# git
 
-Git Rebase (squash)
-===================
+Add second repo to push (multiple pushurl):
 
-Merge multiple commits into one:
+    git remote set-url --add --push origin git@host:project
 
-    git rebase -i e17d4de
+# --orphan  Branch
 
-Last 5 commits:
+    git checkout --orphan newbranch
+    git rm -rf .
+    <do work>
+    git add your files
+    git commit -m 'Initial commit'
 
-    git rebase -i HEAD~5
+# commit using GPG
 
+    git commit -S -m your commit message
 
-Vim
-===
+or add on .gitconfig
 
-:Gwrite Stage the current file to the index
+    [commit]
+        gpgsign = true
 
-:Gcommit commit
+Squash via rebase:
+
+    git rebase -i origin/master
+
+Then pick/forward and push **force** your branch:
+
+    git push -u origin -f my_branch
