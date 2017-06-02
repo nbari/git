@@ -28,3 +28,17 @@ Squash via rebase:
 Then pick/forward and push **force** your branch:
 
     git push -u origin -f my_branch
+
+# Autosquash
+
+After creating the branch your fist commit with this:
+
+    git commit --fixup SHAofthecommit -a
+
+Subsequent commits just git commit add etc and for finish:
+
+    git rebase -i master --autosquash
+
+Optional for .gitconfig
+   [rebase]
+     autoSquash = true
