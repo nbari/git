@@ -2,3 +2,7 @@
 	path = mirror
 	url = git@github.com:nbari/git2
 	branch = master
+[submodule "violetear"]
+	path = violetear
+	url = git@github.com:nbari/violetear
+	branch = master
