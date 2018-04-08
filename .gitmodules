@@ -1,0 +1,4 @@
+[submodule "mirror"]
+	path = mirror
+	url = git@github.com:nbari/git2
+	branch = master
