@@ -5,3 +5,5 @@ remote origin/master
 git pull --rebase --autostash <-- creating extra merge
 
 git rebase origin/master
+
+update master
