@@ -1,4 +1,5 @@
 gpg --armor --export
 
 
-ssh per key
+
+ykman openpgp touch aut on
