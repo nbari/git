@@ -1,5 +1,4 @@
 gpg --armor --export
 
 
-
 $ ykman openpgp touch aut on
