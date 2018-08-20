@@ -8,10 +8,3 @@ git rebase origin/master
 
 update master
 
-xxxx
-
-yyyy
-
-ff
-
-13:11
