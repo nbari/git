@@ -2,8 +2,4 @@ Tue Jun 18 20:33:49 CEST 2019
 adf
 asdfasdf
 
-5
-
-77
-
 git config --global mergetool.fugitive.cmd 'vim -f -c "Gvdiffsplit!" "$MERGED"'
