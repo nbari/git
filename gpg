@@ -2,3 +2,5 @@ gpg --armor --export
 
 
 $ ykman openpgp keys set-touch aut off
+
+git config --global commit.gpgsign true
