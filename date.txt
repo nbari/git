@@ -8,3 +8,4 @@ git rebase origin/master
 
 update master
 
+git fetch; git diff ..origin/master
