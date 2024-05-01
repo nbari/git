@@ -10,4 +10,4 @@ update master
 
 git fetch; git diff ..origin/master
 
-hotfix 1
+hotfix 2
